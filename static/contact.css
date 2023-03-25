@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* =================================(navbar)=============================== */
+.navbarsticky {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+}
+
+.navbar {
+    height: 90px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.navbar img {
+    width: 100px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+    margin-left: 180px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 10px;
+    position: relative;
+}
+
+.navbar ul li::before {
+    content: "";
+    height: 3px;
+    width: 0px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all 0.5s;
+}
+
+.navbar ul li:hover::before {
+    width: 100%;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.dwnld-btn {
+    height: 40px;
+    width: 158px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 15px 0px 20px;
+    position: relative;
+}
+
+
+/* =================================(/navbar)=============================== */
+
+/* =================================(section-1)=============================== */
+.section-1 {
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstpage {
+    height: 80%;
+    width: 81%;
+    /* background-color: aqua; */
+    margin-top: 200px;
+    position: relative;
+    display: flex;
+}
+
+.firstpage-container1 {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.firstpage-container1 h2 {
+    color: black;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+    margin-left: 20px;
+}
+
+.firstpage-container1 p {
+    color: #4b4b4b;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 20px 0px;
+}
+
+.firstpage-container1 label {
+    color: #4b4b4b;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 30px 0px 10px;
+}
+
+.firstpage-container1 input {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid rgb(206, 204, 204);
+    padding: 7px;
+    border-radius: 3px;
+}
+
+.firstpage-container1 select {
+    display: block;
+    width: 103%;
+    height: 50px;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 3px;
+}
+
+textarea {
+    width: 100%;
+    font-size: 14px;
+    outline: none;
+    height: 200px;
+    border: 1px solid #DCDCDC;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    color: #303030;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    padding: 10px 7px;
+    text-align: left;
+    outline: 0;
+    resize: none;
+}
+
+.firstpage-container1 button {
+    height: 50px;
+    width: 100%;
+    outline: none;
+    margin-top: 30px;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f9c935;
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.firstpage_container2 {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 150px;
+}
+.firstpage_container2 img{
+    width: 50%;
+    margin-left: 150px;
+}
+
+.firstpage_container2 h5 {
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.firstpage_container2 p {
+    color: #4b4b4b;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    margin: 0px 0px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================(/section-1)=============================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================(section-8)=============================== */
+
+
+.section-8 {
+    height: 40vh;
+    background-color: black;
+    position: relative;
+    top: 80px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eightpage {
+    position: relative;
+    /* background-color: blue; */
+    display: flex;
+    height: 70%;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box {
+    position: relative;
+    height: 100%;
+    width: 15%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.eightpage h3 {
+    margin-bottom: 25px;
+}
+
+.eightpage-1 img {
+    margin: 5px;
+}
+
+.eightpage-3,
+.eightpage-4 {
+    align-items: flex-start;
+}
+
+.eightpage-4 {
+    left: -100px;
+}
+
+.eightpage-5 {
+    left: -120px;
+}
+
+.eightpage ul li {
+    list-style: none;
+    font-size: 17px;
+    margin: 10px 0px;
+}
+
+.eightpage ul li a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #fff;
+    margin: -5px 15px 15px 0px;
+    font-size: 20px;
+}
+
+hr {
+    color: #4B4B4B;
+}
+
+footer {
+    overflow-x: hidden;
+    position: relative;
+    bottom: 0;
+    height: 10vh;
+    width: 100%;
+    top: 80px;
+    background-color: black;
+}
+
+.foot {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    opacity: 0.6;
+    font-size: 20px;
+}
+
+
+/* =================================(/section-8)=============================== */
+/* =================================(download)=============================== */
+/* .download{
+    display: none;
+} */
+.blackscreen {
+    width: 100%;
+    height: 810vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 100;
+    position: absolute;
+    top: 0%;
+}
+
+.dwnldapp {
+    position: fixed;
+    height: 320px;
+    width: 900px;
+    background-color: #fff;
+    margin-left: 320px;
+    margin-top: 240px;
+    display: flex;
+    box-shadow: 0px 2px 15px grey;
+    border-radius: 5px;
+}
+
+.dwnldapp-left {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dwnldapp-left h3 {
+    color: black;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.dwnldapp-left img {
+    width: 90px;
+    margin-top: 30px;
+}
+
+.dwnldapp-left p {
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+
+}
+
+.line {
+    border-right: 2px solid rgb(101, 99, 99);
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.dwnldapp-right {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dwnldapp-right h3 {
+    color: black;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 0%;
+}
+
+.dwnldapp-img {
+    width: 320px;
+    height: 150px;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.dwnldapp-right img {
+    width: 80px;
+    text-align: right;
+}
+
+.dwnldapp-img1 p {
+    color: #303030;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.dwnldapp-img2 p {
+    color: #303030;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.closetab {
+    background-color: #ebebeb;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/* =================================(/download)=============================== */

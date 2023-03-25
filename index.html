@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Rapido</title>
+</head>
+
+<body>
+    <div class="mainbox">
+        <section class="section_1">
+            <div class="firstpage">
+                <div class="firstpage_bg">
+                    <div class="firstpage_img">
+                        <img src="image/home_img_new.webp" alt="">
+                    </div>
+                </div>
+
+                <nav class="navbarsticky" id="navbg">
+                    <div class="navbar">
+                        <img src="image/logo.png" alt="">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="static/about.html">About Us</a></li>
+                            <li><a href="static/safety.html">Safety</a></li>
+                            <li><a href="static/careers.html">Careers</a></li>
+                            <li><a href="static/blog.html">Blog</a></li>
+                            <li><a href="static/press.html">Press</a></li>
+                            <li><a href="static/contact.html">Contact Us</a></li>
+                        </ul>
+                        <button onclick="dwnld_app()" class="dwnld-btn">Download App</button>
+                    </div>
+                </nav>
+
+
+
+                <div class="firstpage_text">
+                    <h1>India’s largest bike<br>
+                        taxi service</h1>
+                    <p>Rapido is India’s first and fastest-growing <br>
+                        taxi app with a whopping 25 Million+ <br>
+                        app downloads. We are now running <br>
+                        operations in more than 100 cities.
+                    </p>
+                    <div class="firstpage_btn">
+                        <button onclick="dwnld_app()"class="firstpage-btn-1 color-y">Download Rapido</button>
+                        <button  onclick="SignUp()" class="firstpage-btn-2 color-w">Sign-up as Driver</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section_2">
+            <div class="secondpage">
+                <div class="secondpage_text">
+                    <h2>Safety for all.</h2>
+                    <p>At Rapido, the well-being of our customers is <br>
+                        above everything else.We are constantly in <br>
+                        pursuit of enhancing our safety measures to <br>
+                        ensure every Rapido ride is a pleasant and <br>
+                        comfortable experience </p>
+                   <a href="static/safety.html"> <button>Know more</button></a>
+                </div>
+                <div class="secondpage_img">
+                    <img src="image/safety_guideline.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="section-3">
+            <div class="thirdpage">
+                <div class="thirdpage_bg">
+                    <div class="thirdpage-img">
+                        <div class="thirdpage_img1">
+                            <img class=" thirdpage_img_image1" src="image/y_p.svg" alt="">
+                            <img class=" thirdpage_img_image2" src="image/who_we_1.webp" alt="">
+                            <h2></h2>
+                        </div>
+                        <div class="thirdpage_img2">
+                            <h2></h2>
+                            <img class="thirdpage_img2_image1" src="image/who_we_2.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="thirdpage_text">
+                    <h2>Know Us Better</h2>
+                    <p>We have crossed 10 million happy customers<br>
+                        and 100 million rides. Rapido is here to <br>
+                        revolutionize intra-city travel as we bring you<br>
+                        redefined comfort & convenience with our<br>
+                        disruptive service model.</p>
+                  <a href="static/about.html"><button>Read more here</button></a>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+        <section class="section-4">
+            <div class="fourpage">
+                <div class="fourpage_bg">
+                    <h2>Our Impact</h2>
+                    <p>Our presence in the country has changed the concept of intra-city travel and <br>
+                        made last-mile connectivity affordable for all.</p>
+                    <div class="fourpage-circle">
+                        <ul>
+                            <li>
+                                <div>
+                                    <img src="image/presence_1.webp" alt="">
+                                    <h4>25 M</h4>
+                                    <p>Downloads</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="image/presence_2.webp" alt="">
+                                    <h4>100 +</h4>
+                                    <p>Cities</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="image/presence_3.webp" alt="">
+                                    <h4>1 + M</h4>
+                                    <p>Captains</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="image/presence_4.webp" alt="">
+                                    <h4>10 + M</h4>
+                                    <p>Customers</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-5">
+            <div class="fivepage">
+                <div class="fivepage_text">
+                    <h2>What's in it for you</h2>
+                    <div class="fivepage_btn">
+                        <button class="fivepage_btn1" id="bg-y" onclick="btnone()">Customers</button>
+                        <button class="fivepage_btn2" id="bg-w" onclick="btntwo()">Captains</button>
+                    </div>
+                </div>
+                <div class="fivepage_all_box">
+                    <div class="fivepage_box" id="fivepageBoxe1">
+                        <div class="fivepage_hidebox">
+                            <div class="fivepage_one_box">
+                                <img src="image/CCcare_1.webp" alt="">
+                                <h3>Doorstep Pick-Up</h3>
+                                <p>We will pick you up from where you are<br>
+                                    and drop you exactly where you need to<br>
+                                    be.</p>
+                            </div>
+                            <div class="fivepage_one_box">
+                                <img src="image/CCcare_2.webp" alt="">
+                                <h3>Affordability</h3>
+                                <p>No more latent prices and shocked<br>
+                                    reactions after seeing the final ride cost.<br>
+                                    We're here with the most affordable rides<br>
+                                    for all.</p>
+                            </div>
+                            <div class="fivepage_one_box">
+                                <img src="image/CCcare_3.webp" alt="">
+                                <h3>Quick Ride</h3>
+                                <p>Trend setters of smart commute be it <br>
+                                    traffic or rush hours.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fivepage_box" id="fivepageBoxe2">
+                        <div class="fivepage_hidebox">
+                            <div class="fivepage_one_box">
+                                <img src="image/captain_care_1.webp" alt="">
+                                <h3>Zero Pressure Rides</h3>
+                                <p>Gives a Captain more room in a day<br>
+                                    without hampering their daily activities.<br>
+                                    You can decide on when to go on the next <br>
+                                    ride.</p>
+                            </div>
+                            <div class="fivepage_one_box">
+                                <img src="image/captain_care_2.webp" alt="">
+                                <h3>Redeemable Earnings</h3>
+                                <p>What’s the use of getting paid when you<br>
+                                    can't withdraw money when you want to?<br>
+                                    Redeems can be transferred from Rapido <br>
+                                    wallet to your bank account at your <br>
+                                    convenience.</p>
+                            </div>
+                            <div class="fivepage_one_box">
+                                <img src="image/captain_care_3.webp" alt="">
+                                <h3>Insured Rides</h3>
+                                <p>All rides are insured. Accidental coverage <br>
+                                    and medical benefits covered up to Rs 5 <br>
+                                    Lakh for Captain & family.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-6">
+            <div class="sixpage">
+                <div class="sixpage_bg">
+                    <div class="sixpage_bg_img">
+                        <img src="image/g_p.svg" alt="">
+                    </div>
+                    <div class="six_page">
+                        <h2>Straight from the Customer's heart</h2>
+                        <div class="fivepage_btn">
+                            <button class="fivepage_btn1" id="Bg-y" onclick="btnthree()">Customers</button>
+                            <button class="fivepage_btn2" id="Bg-w" onclick="btnfour()">Captains</button>
+                        </div>
+                    </div>
+                    <!--  Swiper -->
+                    <div id="hide_one_card">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide  card-all">
+                                    <div class="card">
+                                        <div class="swiper_img">
+                                            <img src="image/1.png" alt="">
+                                        </div>
+                                        <div class="swiper-text">
+                                            <h3>Thanks to Rapido, my first lecture is <br>
+                                                never missed. My captain arrives in 2-3 <br>
+                                                mins and zoop we go. </h3>
+                                            <h4>Dhiya M</h4>
+                                            <p>customer</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide card-all">
+                                    <div class="card">
+                                        <div class="swiper_img">
+                                            <img src="image/2.png" alt="">
+                                        </div>
+                                        <div class="swiper-text">
+                                            <h3>Was running late for my appointment <br>
+                                                and given it was during a peak hour, I <br>
+                                                did not have to think twice and simply <br>
+                                                booked my Rapido & reached just in <br>
+                                                time.</h3>
+                                            <h4>Akshay Gaur</h4>
+                                            <p>customer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide card-all">
+                                    <div class="card">
+                                        <div class="swiper_img">
+                                            <img src="image/3.png" alt="">
+                                        </div>
+                                        <div class="swiper-text">
+                                            <h3>Well, I love rapido cuz it's quicker than<br>
+                                                other apps and they're mostly available <br>
+                                                anytime. And I don't know how to ride <br>
+                                                bikes but the app gives me joy to ride on <br>
+                                                a bike and I get to enjoy Bangalore's<br>
+                                                weather.</h3>
+                                            <h4>Praneet</h4>
+                                            <p>customer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide card-all">
+                                    <div class="card">
+                                        <div class="swiper_img">
+                                            <img src="image/4.png" alt="">
+                                        </div>
+                                        <div class="swiper-text">
+                                            <h3>Well, I love rapido cuz it's quicker than<br>
+                                                other apps and they're mostly available <br>
+                                                anytime. And I don't know how to ride <br>
+                                                bikes but the app gives me joy to ride on <br>
+                                                a bike and I get to enjoy Bangalore's<br>
+                                                weather.</h3>
+                                            <h4>Praneet</h4>
+                                            <p>customer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="hide_two_card">
+                        <div class="p-card">
+                            <div class="card-all hidden_card ">
+                                <div class="card ">
+                                    <div class="swiper_img">
+                                        <img src="image/c-1.png" alt="">
+                                    </div>
+                                    <div class="swiper-text">
+                                        <h3>My account was credited with the<br>
+                                            amount and wondered who it was. I did<br>
+                                            not expect it but Rapido helped me at<br>
+                                            the right time. I’m glad that support has <br>
+                                            been extended by Rapido to us. I’ve<br>
+                                            been working with Rapido for the <br>
+                                            past 2 and a half years and really<br>
+                                            obliged for this small deed.</h3>
+                                        <h4>Devender Kumar </h4>
+                                        <p>Captain</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class=" card-all hidden_card hidden_card2">
+                                <div class="card ">
+                                    <div class="swiper_img">
+                                        <img src="image/c-2.png" alt="">
+                                    </div>
+                                    <div class="swiper-text">
+                                        <h3>I am working in Rapido for the last 8 <br>
+                                            months and I would really like to thank<br>
+                                            Rapido, I am differently-abled and <br>
+                                            Rapido has given me a good <br>
+                                            opportunity to earn more money <br>
+                                            compared to my previous job. Wonder-full<br>
+                                            platform to earn money with pride. </h3>
+                                        <h4>Dhiya M</h4>
+                                        <p>Captain</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <section class="section-7">
+            <div class="sevenpage_text">
+                <h2>Rapido Business Solutions</h2>
+                <p>Get onboard with Rapido B2B services to earn<br>
+                    more while you deliver. With highly reliable<br>
+                    deliveries and a strong customer base, we are<br>
+                    one of the fastest growing networks in the <br>
+                    country. Sign up as a Rapido Partner for on-<br>
+                    time services.</p>
+            </div>
+
+            <div class="sevenpage">
+                <div class="sevenpage_bg">
+                    <div class="sevenpage-img">
+                        <div class="thirdpage_img1">
+                            <img class=" thirdpage_img_image1 " src="image/y_p.svg" alt="">
+                            <img class=" thirdpage_img_image2 " src="image/Rapido4business1.png" alt="">
+                            <h2></h2>
+                        </div>
+                        <div class="thirdpage_img2">
+                            <h2></h2>
+                            <img class="thirdpage_img2_image1 sevenpage-img2" src="image/Rapido4business2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+
+        <section class="section-8">
+            <div class="eightpage">
+                <div class="eightpage-1  box">
+                    <h3>Customer app </h3>
+                   <a target="_blank" href="https://play.google.com/store/apps/details?id=com.rapido.passenger&referrer=af_tranid%3D_mBY6aW7Qqx1V9M2r-t-uQ%26shortlink%3D3f16ae94%26af_dp%3Drapido%253A%252F%252Fopen%252F%26pid%3DRapido%20Website%28Android%29%26source_caller%3Dui">
+                     <img src="image/play_store.svg" alt=""></a>
+                    <a target="_blank" href="https://apps.apple.com/IN/app/id1198464606?mt=8"><img src="image/app_store.svg" alt=""></a>
+                </div>
+                <div class="eightpage-2 box">
+                    <h3>Captain app</h3>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.rapido.passenger&referrer=af_tranid%3D_mBY6aW7Qqx1V9M2r-t-uQ%26shortlink%3D3f16ae94%26af_dp%3Drapido%253A%252F%252Fopen%252F%26pid%3DRapido%20Website%28Android%29%26source_caller%3Dui">
+                        <img src="image/play_store.svg" alt="">
+                </div>
+                <div class="eightpage-3 box">
+                    <ul>
+                        <li> <a href="index.html">Home</a></li>
+                        <li> <a href="static/about.html">About Us</a> </li>
+                        <li> <a href="static/safety.html">Safety</a> </li>
+                        <li> <a href="static/careers.html">Careers</a> </li>
+                        <li> <a href="static/blog.html">Blog</a</li>
+                    </ul>
+                </div>
+                <div class="eightpage-4 box">
+                    <ul>
+                        <li> <a href="index.html">Privacy Policy</a></li>
+                        <li> <a href="static/about.html"> Customer <br>
+                                Terms</a></li>
+                        <li> <a href="static/about.html">Captain<br> Terms</a></li>
+                        <li> <a href="static/press.html">Press</a></li>
+                    </ul>
+                </div>
+                <div class="eightpage-5 box">
+                    <h3>Follow Us</h3>
+                    <div class="icons">
+                        <a target="_blank" href="https://www.facebook.com/rapido4bike/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a target="_blank" href="https://twitter.com/rapidobikeapp"><i class="fa-brands fa-twitter"></i></a>
+                        <a target="_blank"href="https://www.linkedin.com/company/rapido-bike/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a target="_blank"href="https://www.instagram.com/rapidoapp/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="foot">
+                <h6>© 2023 Roppen Transportation. All rights reserved.</h6>
+            </div>
+
+        </footer>
+
+
+    </div>
+
+    <div class="download">
+        <div class="dwnldapp">
+            <div class="dwnldapp-left">
+                <h3>Captain App Download</h3>
+                <a href="index.html"><img src="image/captain_launcher.png" alt=""></a>
+                <p>Android</p>
+            </div>
+            <div class="line"></div>
+            <div class="dwnldapp-right">
+                <h3>Customer App Download</h3>
+                <div class="dwnldapp-img">
+                    <div class="dwnldapp-img1">
+                       <a target="_blank" href="https://play.google.com/store/apps/details?id=com.rapido.passenger&referrer=af_tranid%3D7Q9lbpdzgc8eczqHNuWZXg%26shortlink%3D3f16ae94%26af_dp%3Drapido%253A%252F%252Fopen%252F%26pid%3DRapido%20Website%28Android%29%26source_caller%3Dui">
+                         <img src="image/customer_launcher.png" alt=""></a>
+                        <p>Android</p>
+                    </div>
+                    <div class="dwnldapp-img2">
+                        <a target="_blank" href="https://apps.apple.com/IN/app/id1198464606?mt=8"><img src="image/customer-ios.png" alt=""></a>
+                        <p>IOS</p>
+                    </div>
+                </div>
+            </div>
+            <span class="closetab">x</span>
+        </div>
+    </div>
+
+<div class="sign-up">
+    <div class="sign-upbox">
+        <span class="close">X</span>
+        <div class="sign-upcontent">
+           
+            <h3>Become a Captain</h3>
+            <input type="text" placeholder="Enter your name">
+            <input type="text" placeholder="Your city">
+            <select class="selectbox">
+                <option> How did you find us?</option>
+                <option > facebbok</option>
+                <option> Instagram</option>
+                <option > Google AD</option>
+                <option> Youtube</option>
+                <option>Friend</option>
+                <option>Poster</option>
+                <option >banner</option>
+                <option> Cinema</option>
+            </select>
+            <p> Do you have Driving License?</p>
+            <div class="checkbox">
+            <input type="checkbox" ><label> yes</label>
+            <input type="checkbox"><label >no</label>
+            </div>
+            <div class="otp">
+                <input type="number" placeholder="Enter Phone Number">
+                <button>Get OTP</button>
+            </div>
+            <input class="getotp" type="number" placeholder="Enter OTP">
+            <button class="submit">Submit</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+    <script src="static/style.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+</body>
+
+</html>
